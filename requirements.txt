@@ -1,7 +1,6 @@
-streamlit==1.25.0
-pandas==2.0.3
-numpy==1.26.5
-requests
-python-dotenv
-beautifulsoup4
+streamlit
+pandas
+numpy
 openpyxl
+requests
+beautifulsoup4
