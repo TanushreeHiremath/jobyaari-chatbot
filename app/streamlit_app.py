@@ -31,7 +31,7 @@ def filter_jobs(category=None, location=None, min_salary=None):
 
 # Streamlit
 st.set_page_config(page_title="JobYaari Chatbot", layout="wide")
-st.title("JobYaari Chatbot 🙂")
+st.title("JobYaari Chatbot :)")
 # Auto refresh every 2 minutes
 st_autorefresh(interval=120000, key="job_refresh")
 if "chat_history" not in st.session_state:
@@ -89,3 +89,4 @@ st.dataframe(pd.DataFrame(list(categories.items()), columns=["Category", "Job Co
 
 # show last updated time
 st.markdown(f"*Last updated: {datetime.now().strftime('%d-%m-%Y %H:%M:%S')}*")
+
